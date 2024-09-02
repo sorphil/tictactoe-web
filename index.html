@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic-Tac-Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./main.js"></script>
+    </head>
+    <body> 
+        <div class ="container"> 
+            <div class = "titleScreen" >
+ 
+                <div class = "head">
+                    <span class = "letter">T</span><span class = "letter">I</span><span class = "letter">C</span><span class = "letter">-</span><span class = "letter">T</span><span class = "letter">A</span><span class = "letter">C</span><span class = "letter">-</span><span class = "letter">T</span><span class = "letter">O</span><span class = "letter">E</span><a class = "authorLink">{sorphil®}</a>
+                </div>
+                <div class = "subhead">Click the screen or Press Enter 2P</div>
+               
+            </div>
+
+            <div class = "gameContainer" style="display:none">
+                <div class ="top-row">
+                    <div class ="leftBlock playerFields" id = "playerOneFields">
+                        <div class ="playerIcon">
+                            <img src="./assets/images/humanIcon.png" class = "humanIcon" id = "playerOneHumanIcon">
+                            <img src="./assets/images/robotIcon.png"  class = "robotIcon" id = "playerOneRobotIcon">
+                        </div>
+        
+                        <input type = "text" class="playerOne name" id = "playerOneName" placeholder="Player 1 Name">
+                        <select class = "playerOne type" id = "playerOneType">
+                            <option value="Human">Human</option>
+                            <option value = "AI">AI</option>
+                        </select>
+                        <select class ="playerOne difficulty" id = "playerOneDifficulty">
+                            <option>Easy</option>
+                            <option>Normal</option>
+                            <option>Hard</option>
+                        </select>
+                        <div class = "displayInfo">
+                            <div class = "displayName"></div>
+                            <div class = "displayType"><span class = "displayDifficulty"></span></div>
+                            <div class = "displayScore"></div>
+                        </div>
+                    </div>
+                    <div class ="boardContainer" style="display: none;"></div>
+                    <div class = "rightBlock playerFields" id ="playerTwoFields">
+                        <div class ="playerIcon">
+                            <img src="./assets/images/humanIcon(1).png" class = "humanIcon"  id = "playerTwoHumanIcon">
+                            <img src="./assets/images/robotIcon(1).png"  class = "robotIcon" id = "playerTwoRobotIcon">
+                        </div>
+                        <input type = "text" class="playerTwo name" id = "playerTwoName" placeholder="Player 2 Name">
+                        <select class = "playerTwo type" id = "playerTwoType">
+                            <option>Human</option>
+                            <option>AI</option>
+                        </select>
+                        <select class ="playerTwo difficulty" id = "playerTwoDifficulty">
+                            <option>Easy</option>
+                            <option>Normal</option>
+                            <option>Hard</option>
+                        </select>
+                        <div class = "displayInfo">
+                            <div class = "displayName"></div>
+                            <div class = "displayType"><span class = "displayDifficulty"></span></div>
+                            <div class = "displayScore"></div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class ="bottom-row">
+                    <div class ="gameButtons">
+                        <button class = "enter-btn">Enter</button>
+                        <button class = "reset-btn">Reset</button>
+                        <button class = "back-btn">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+         <!--
+        <div class = "playerCreation" style="display: none;">
+            <div class = "fields">
+                <div class = "playerFields" id ="playerOneFields">
+                    <div class ="playerIcon">
+                        <img src="./HumanIcon.png"  class = "humanIcon" id = "playerOneHumanIcon">
+                        <img src="./RobotIcon.png"  class = "robotIcon" id = "playerOneRobotIcon">
+                    </div>
+
+                    <input type = "text" class="playerOne name" id = "playerOneName" placeholder="Player 1 Name">
+                    <select class = "playerOne type" id = "playerOneType">
+                        <option value="Human">Human</option>
+                        <option value = "AI">AI</option>
+                    </select>
+                    <select class ="playerOne difficulty" id = "playerOneDifficulty">
+                        <option>Easy</option>
+                        <option>Normal</option>
+                        <option>Hard</option>
+                    </select>
+                </div>
+
+                <div class = "gameContainer">
+                    <div class = "score"></div>
+                    <div class = "turn"></div>
+                    <div class = "boardContainer">
+                    </div>
+                </div>
+
+                <div class = "playerFields" id ="playerTwoFields">
+                    <div class ="playerIcon">
+                        <img src="./HumanIcon.png" class = "humanIcon"  id = "playerTwoHumanIcon">
+                        <img src="./RobotIcon.png"  class = "robotIcon" id = "playerTwoRobotIcon">
+                    </div>
+                    <input type = "text" class="playerTwo name" id = "playerTwoName" placeholder="Player 2 Name">
+                    <select class = "playerTwo type" id = "playerTwoType">
+                        <option>Human</option>
+                        <option>AI</option>
+                    </select>
+                    <select class ="playerTwo difficulty" id = "playerTwoDifficulty">
+                        <option>Easy</option>
+                        <option>Normal</option>
+                        <option>Hard</option>
+                    </select>
+                </div>
+            </div>
+            <div class = "buttonDiv">
+                <button class = "enter-btn">Enter</button>
+                <button class = "reset-btn">Reset</button>
+                <button class = "back-btn">Back</button>
+            </div>
+
+        </div>
+   -->
+
+    </body>
+</html>
