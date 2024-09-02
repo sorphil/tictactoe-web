@@ -1,6 +1,4 @@
 # Tic-Tac-Toe
-## OdinProject Javascript Project 2  
-
 ### Live Demo
 [Tic-Tac-Toe 🎮](https://sorphil.github.io/Tic-Tac-Toe/)   
 
