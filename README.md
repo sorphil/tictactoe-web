@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 ### Live Demo
-[Tic-Tac-Toe 🎮](https://sorphil.github.io/Tic-Tac-Toe/)   
+[Tic-Tac-Toe 🎮](https://sorphil.github.io/tictactoe-web/)   
 
 ### Preview
 ![Tic-Tac-Toe Gif](https://media.giphy.com/media/eKt7FRqcsgqSlnNXH1/giphy.gif)  
